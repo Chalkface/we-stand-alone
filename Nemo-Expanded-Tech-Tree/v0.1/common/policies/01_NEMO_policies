@@ -73,16 +73,22 @@ nerve_stapling = {
 		}
 		
 		pop_happiness = {
-			base = -0.2
+			base = -0.25
 			modifier = {
-				add = -0.8
+				add = -0.75
 				pop_has_ethic = "ethic_fanatic_individualist"
-				NOT = { pop_has_trait = trait_decadent }
 			}
 			modifier = {
-				add = -0.4
+				add = -0.25
 				pop_has_ethic = "ethic_individualist"
-				NOT = { pop_has_trait = trait_decadent }
+			}
+			modifier = {
+				add = 0.45
+				pop_has_ethic = "ethic_fanatic_collectivist"
+			}
+			modifier = {
+				add = 0.25
+				pop_has_ethic = "ethic_collectivist"
 			}
 		}
 	}
