@@ -11,3 +11,6 @@
  army_attachment_xeno_camouflage_brigade_desc:0 "Adapting to local environments is a nightmare of logistics for an armed force expected to see service anywhere from a desert moon to a lush jungle to the cargo bay of a starship. This army has it's own Corps of engineers and scientists who specialise in adapting modern military camouflage methods to Xeno environments."
  army_attachment_cloaked_IFV_brigade:0 "Cloaked Division"
  army_attachment_cloaked_IFV_brigade_desc:0 "A specialist division equipped with microprojector technology and emission lowering materials, and supported by similarly hidden support units. The advantages and uses for 90% cloaked commando squads are beyond counting."
+ tech_telomere_replication:0 "Telomere Replication"
+ tech_telomere_replication_desc:0 "By delving into the depths of our own DNA coding, we determined that Telomeres are one of the hidden triggers for the end of a natural lifespan. Now, we master the art of reinforcing these delicate strange of information so that we can further delay death."
+ 
