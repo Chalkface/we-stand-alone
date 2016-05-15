@@ -4,7 +4,8 @@ active_camouflage_brigade = {
 	cost = { minerals = 50 energy = 25 }
 	
 	modifier = {
-		army_morale_damage_mult = 0.15
+		army_health = 0.05
+		army_morale = 0.10
 	}
 	
 	prerequisites = { "tech_cloaking_1" }
