@@ -1,0 +1,21 @@
+# Active Camouflage IFV Brigade
+active_camouflage_brigade = {
+	icon = "gfx/interface/icons/army_attachments/attachment_special_forces.dds"
+	cost = { minerals = 50 energy = 25 }
+	
+	modifier = {
+		army_morale_damage_mult = 0.7
+	}
+	
+	prerequisites = { "tech_cloaking_1" }
+	
+	ai_weight = {
+		weight = 300
+		modifier = {
+			weight = 0
+			NOT = {
+				has_technology = tech_cloaking_1
+			}
+		}
+	}
+}
