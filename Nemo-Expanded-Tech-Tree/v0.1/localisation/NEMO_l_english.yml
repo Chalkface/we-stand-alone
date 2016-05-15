@@ -4,7 +4,7 @@
  tech_xeno_logistics:0 "Xeno-Logistics"
  tech_xeno_logistics_desc:0 "The art of stellar warfare is an ever evolving field, and we have had opportunities to practice and evolve how we conduct war upon the surface of alien worlds. Now we can consolidate our strategy and ensure our planetary forces are equipped to the best of our ability at all times."
  tech_cloaking_1:0 "Xeno-Camouflage"
- tech_cloaking_1_desc:0 "Active Camouflage and Low Visibility technology have long been available, but methods that worked on our homeworld are near useless across the near infinite environments that make up foreign worlds."
+ tech_cloaking_1_desc:0 "Active Camouflage and Low Visibility technology have long been available, but standardised methods that worked on our homeworld are useless across the near infinite environments that make up foreign worlds. By devoting resources to engineering specialists who can travel with the army, we can ensure appropriate camouflage methods are ready before our troops even make planetfall."
  tech_cloaking_2:0 "Microprojector Cloaking"
  tech_cloaking_2_desc:0 "Whilst prohibitively expensive, microprojector technology is the closest we have to complete invisibility in a military environment. By adapting the technology ready for practical use, we can create a new generation of shock troops."
  army_attachment_xeno_camouflage_brigade:0 "Xeno Camouflage Corps"
