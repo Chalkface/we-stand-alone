@@ -37,12 +37,122 @@
 @tier3weight3 = 40
 @tier3weight4 = 35
 
+tech_xeno_logistics = {
+    cost = @tier2cost2                            
+    area = society                              
+    tier = 1                                  
+    category = { military_theory }	                        
+    prerequisites = { "tech_combat_training" }   
+    weight = @tier2weight2                          
+    ai_update_type = military
+	
+	modifier = { 
+		army_morale = 0.05
+	}
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 0.65
+            has_ethic = ethic_fanatic_pacifist
+        }
+        modifier = {
+            factor = 0.8
+            has_ethic = ethic_pacifist
+        }
+        modifier = {
+			factor = 0.1
+			NOT = {
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_military_theory"
+				}
+			}
+		}
+	}
+
+    ai_weight = {
+        factor = 1 
+        modifier = {
+            factor = 2
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_militarist
+        }
+    }
+}
+
 tech_cloaking_1 = {
     cost = @tier2cost4                            
+    area = society                              
+    tier = 2                                  
+    category = { military_theory }	                        
+    prerequisites = { "tech_combat_training" }   
+    weight = @tier2weight4                          
+    ai_update_type = military
+    is_rare = yes
+	
+	modifier = { 
+		army_health = 0.05
+		army_morale = 0.05
+	}
+	
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 0.65
+            has_ethic = ethic_fanatic_pacifist
+        }
+        modifier = {
+            factor = 0.8
+            has_ethic = ethic_pacifist
+        }
+        modifier = {
+			factor = 0.1
+			NOT = {
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_military_theory"
+				}
+			}
+		}
+	}
+		
+    ai_weight = {
+        factor = 1 
+        modifier = {
+            factor = 2
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_militarist
+        }
+    }
+}
+
+tech_cloaking_2 = {
+    cost = @tier3cost2                            
     area = physics                              
     tier = 2                                  
     category = { field_manipulation }	                        
-    prerequisites = { "Combat Training" }   
+    prerequisites = { "tech_cloaking_1" }   
     weight = @tier2weight4                          
     ai_update_type = military
     is_rare = yes
@@ -65,7 +175,7 @@ tech_cloaking_1 = {
             has_ethic = ethic_pacifist
         }
         modifier = {
-			factor = 1.25
+			factor = 0.1
 			NOT = {
 				research_leader = {
 					area = physics
@@ -73,6 +183,7 @@ tech_cloaking_1 = {
 				}
 			}
 		}
+	}
 
     ai_weight = {
         factor = 1 
