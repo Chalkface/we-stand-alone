@@ -1,0 +1,36 @@
+# Nerve Stapling
+planet_edict = {
+	name = "nerve_stapling"
+	influence_cost = @standardEdictCost
+	length = 10800
+	modifier = {
+	  pop_ethic_shift = -0.50
+		tile_resource_food_mult = 0.50
+		tile_resource_minerals_mult = 0.20
+		tile_resource_energy_mult = -1.0
+		pop_growth_req_mult = 1.0
+		pop_happiness = 1.0
+		habitability = 1.0
+		planet_army_build_speed_mult = -1.0
+		tile_resource_physics_research_mult = -1.0
+		tile_resource_society_research_mult = -1.0
+		tile_resource_engineering_research_mult = -1.0
+	}
+	
+	potential = {
+		owner = {
+			has_policy_flag = nerve_stapling_allowed_all
+		}
+	}
+	
+	allow = {
+	}
+	
+	ai_weight = {
+		weight = 0
+		modifier = {
+			factor = 0
+			num_pops > 9
+		}
+	}	
+}
