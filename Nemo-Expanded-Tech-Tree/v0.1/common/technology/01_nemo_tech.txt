@@ -99,13 +99,7 @@ tech_cloaking_1 = {
     prerequisites = { "tech_combat_training" }   
     weight = @tier2weight4                          
     ai_update_type = military
-    is_rare = yes
-	
-	modifier = { 
-		army_health = 0.05
-		army_morale = 0.05
-	}
-	
+
     weight_modifier = {
         modifier = {
             factor = 1.25
