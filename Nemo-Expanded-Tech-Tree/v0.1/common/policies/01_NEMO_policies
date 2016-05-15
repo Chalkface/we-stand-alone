@@ -21,93 +21,16 @@ nerve_stapling = {
 		AI_weight = {
 			modifier = {
 				factor = 2
-				OR = {
-					has_ethic = "ethic_fanatic_individualist"
-					has_ethic = "ethic_individualist"
-				}
 				NOT = {
-					has_ethic = "ethic_fanatic_xenophobe"
-					has_ethic = "ethic_xenophobe"
+					has_ethic = "ethic_fanatic_collectivist"
+					has_ethic = "ethic_collectivist"
 				}
 			}
-		}
-	}
-	
-	option = {
-		name = "nerve_stapling_allowed_xenos_only"
-		
-		potential = {
-			num_communications > 0
-    	has_technology = tech_nerve_stapling
-  	}
-		valid = {
-			OR = {
-				has_ethic = "ethic_xenophobe"
-				has_ethic = "ethic_fanatic_xenophobe"
-			}
-		}
-		policy_flags = {
-			nerve_stapling_allowed_xenos_only
-		}
-		modifier = {}
-		
-		AI_weight = {
 			modifier = {
-				factor = 0
-				has_valid_ai_personality = yes
-				NOT = { has_ai_personality_behaviour = slaver }
-			}		
-			modifier = {
-				factor = 0
+				factor = -2
 				OR = {
-					has_ethic = "ethic_fanatic_xenophile"
-					has_ethic = "ethic_xenophile"
-				}
-			}
-			modifier = {
-				factor = 2
-				OR = {
-					has_ethic = "ethic_fanatic_xenophobe"
-					has_ethic = "ethic_xenophobe"
-				}
-			}
-		}
-		
-		pop_happiness = {
-			base = 0
-			modifier = {
-				add = -0.05
-				pop_has_ethic = "ethic_xenophile"
-				NOT = { pop_has_trait = trait_decadent }
-				owner = {
-					is_same_species = ROOT
-				}
-			}
-			modifier = {
-				add = -0.1
-				pop_has_ethic = "ethic_fanatic_xenophile"
-				NOT = { pop_has_trait = trait_decadent }
-				owner = {
-					is_same_species = ROOT
-				}
-			}
-			modifier = {
-				add = -0.05
-				pop_has_ethic = "ethic_collectivist"
-				NOT = { pop_has_trait = trait_decadent }
-				owner = {
-					NOT = { is_same_species = ROOT }
-				}
-			}
-			modifier = {
-				add = -0.05
-				NOT = {
-					pop_has_ethic = "ethic_collectivist" 
-					pop_has_ethic = "ethic_fanatic_collectivist"
-					pop_has_trait = trait_decadent
-				}
-				owner = {
-					NOT = { is_same_species = ROOT }
+					has_ethic = "ethic_fanatic_collectivist"
+					has_ethic = "ethic_collectivist"
 				}
 			}
 		}
@@ -141,12 +64,8 @@ nerve_stapling = {
 				}
 			}
 			modifier = {
-				factor = 1.5
+				factor = -2
 				OR = {
-					has_ethic = "ethic_fanatic_xenophobe"
-					has_ethic = "ethic_xenophobe"
-				}
-				NOT = {
 					has_ethic = "ethic_fanatic_individualist"
 					has_ethic = "ethic_individualist"
 				}
@@ -154,15 +73,15 @@ nerve_stapling = {
 		}
 		
 		pop_happiness = {
-			base = 0
+			base = -0.2
 			modifier = {
-				add = -0.05
-				pop_has_ethic = "ethic_individualist"
+				add = -0.8
+				pop_has_ethic = "ethic_fanatic_individualist"
 				NOT = { pop_has_trait = trait_decadent }
 			}
 			modifier = {
-				add = -0.1
-				pop_has_ethic = "ethic_fanatic_individualist"
+				add = -0.4
+				pop_has_ethic = "ethic_individualist"
 				NOT = { pop_has_trait = trait_decadent }
 			}
 		}
