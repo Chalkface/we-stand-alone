@@ -38,12 +38,12 @@
 @tier3weight4 = 35
 
 tech_cloaking_1 = {
-    cost = @tier3cost2                            
+    cost = @tier1cost1                            
     area = physics                              
-    tier = 3                                  
+    tier = 1                                  
     category = { field_manipulation }	                        
     prerequisites = { "tech_shields_3" }   
-    weight = @tier3weight3                          
+    weight = @tier1weight1                          
     ai_update_type = military
     is_rare = yes
 
@@ -82,10 +82,4 @@ tech_cloaking_1 = {
         }
     }
 }
-
-
-
-
-
-
 
