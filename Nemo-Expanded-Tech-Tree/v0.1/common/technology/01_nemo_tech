@@ -37,3 +37,55 @@
 @tier3weight3 = 40
 @tier3weight4 = 35
 
+tech_cloaking_1 = {
+    cost = @tier3cost2                            
+    area = physics                              
+    tier = 3                                  
+    category = { field_manipulation }	                        
+    prerequisites = { "tech_shields_3" }   
+    weight = @tier3weight3                          
+    ai_update_type = military
+    is_rare = yes
+
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 0.65
+            has_ethic = ethic_fanatic_pacifist
+        }
+        modifier = {
+            factor = 0.8
+            has_ethic = ethic_pacifist
+        }
+        modifier = {
+			factor = 0.10
+			NOT = {
+				research_leader = {
+					area = physics
+					has_trait = "leader_trait_expertise_field_manipulation"
+				}
+			}
+		}
+
+    ai_weight = {
+        factor = 1 
+        modifier = {
+            factor = 2
+            has_ethic = ethic_fanatic_militarist
+        }
+    }
+}
+
+
+
+
+
+
+
