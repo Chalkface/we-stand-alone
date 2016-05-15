@@ -38,12 +38,12 @@
 @tier3weight4 = 35
 
 tech_cloaking_1 = {
-    cost = @tier1cost1                            
+    cost = @tier2cost4                            
     area = physics                              
-    tier = 1                                  
+    tier = 2                                  
     category = { field_manipulation }	                        
-    prerequisites = { "tech_shields_3" }   
-    weight = @tier1weight1                          
+    prerequisites = { "Combat Training" "}   
+    weight = @tier2weight3                          
     ai_update_type = military
     is_rare = yes
 
@@ -65,7 +65,7 @@ tech_cloaking_1 = {
             has_ethic = ethic_pacifist
         }
         modifier = {
-			factor = 0.10
+			factor = 1.25
 			NOT = {
 				research_leader = {
 					area = physics
@@ -80,6 +80,9 @@ tech_cloaking_1 = {
             factor = 2
             has_ethic = ethic_fanatic_militarist
         }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_militarist
+        }
     }
 }
-
