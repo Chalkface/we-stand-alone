@@ -3,5 +3,5 @@
  # Nemo Added Techs
  tech_cloaking_1:0 "Cloaking Armies"
  tech_cloaking_1_desc:0 "Applying Cloaking effectively to Xenos Combat situations on the ground."
- active_camouflage_brigade:0 "Active Camouflage IFV Brigade"
- active_camouflage_brigade_desc:0 "Utilising modern Cloaking technology, these IFV units harass and misdirect enemy forces by striking from impossible directions and retreating without a trace."
+ army_attachment_active_camouflage_brigade:0 "Active Camouflage IFV Brigade"
+ army_attachment_active_camouflage_brigade_desc:0 "Utilising modern Cloaking technology, these IFV units harass and misdirect enemy forces by striking from impossible directions and retreating without a trace."
