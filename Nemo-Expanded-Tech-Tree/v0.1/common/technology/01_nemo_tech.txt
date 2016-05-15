@@ -37,6 +37,7 @@
 @tier3weight3 = 40
 @tier3weight4 = 35
 
+#Xeno Logistics
 tech_xeno_logistics = {
     cost = @tier2cost2                            
     area = society                              
@@ -91,6 +92,7 @@ tech_xeno_logistics = {
     }
 }
 
+#Xeno Camoflauge
 tech_cloaking_1 = {
     cost = @tier2cost4                            
     area = society                              
@@ -141,6 +143,7 @@ tech_cloaking_1 = {
     }
 }
 
+#Microprojectors
 tech_cloaking_2 = {
     cost = @tier3cost2                            
     area = physics                              
@@ -192,6 +195,7 @@ tech_cloaking_2 = {
     }
 }
 
+#Telomere Replication
 tech_telomere_replication = {
     cost = @tier2cost3                            
     area = social                              
@@ -254,6 +258,61 @@ tech_telomere_replication = {
 			research_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_biology"
+			}
+		}
+	}
+}
+
+#Nerve Stapling
+tech_nerve_stapling = {
+	cost = @tier3cost4
+	area = society
+	tier = 3
+	category = { statecraft }
+	is_rare = yes	
+	prerequisites = { "tech_will_to_power" }
+	weight = @tier3weight4
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.20
+			NOT = {
+				OR = {
+					has_ethic = ethic_collectivist
+					has_ethic = ethic_fanatic_collectivist
+				}
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_spark_of_genius"
+			}
+		}
+		modifier = {
+			factor = 5
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 3 #rare tech
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
 			}
 		}
 	}
