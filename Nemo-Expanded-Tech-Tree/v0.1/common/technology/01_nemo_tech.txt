@@ -42,8 +42,8 @@ tech_cloaking_1 = {
     area = physics                              
     tier = 2                                  
     category = { field_manipulation }	                        
-    prerequisites = { "Combat Training" "}   
-    weight = @tier2weight3                          
+    prerequisites = { "Combat Training" }   
+    weight = @tier2weight4                          
     ai_update_type = military
     is_rare = yes
 
