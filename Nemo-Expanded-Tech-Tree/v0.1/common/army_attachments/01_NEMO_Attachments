@@ -1,7 +1,7 @@
-# Active Camouflage IFV Brigade
-active_camouflage_brigade = {
+# Xeno Camouflage
+xeno_camouflage_brigade = {
 	icon = "gfx/interface/icons/army_attachments/attachment_special_forces.dds"
-	cost = { minerals = 50 energy = 25 }
+	cost = { minerals = 50 }
 	
 	modifier = {
 		army_health = 0.05
@@ -16,6 +16,28 @@ active_camouflage_brigade = {
 			weight = 0
 			NOT = {
 				has_technology = tech_cloaking_1
+			}
+		}
+	}
+}
+
+# Cloaked IFV
+cloaked_IFV_brigade = {
+	icon = "gfx/interface/icons/army_attachments/attachment_special_forces.dds"
+	cost = { minerals = 50 energy = 25 }
+	
+	modifier = {
+		army_morale_damage_multiplier = 0.15
+	}
+	
+	prerequisites = { "tech_cloaking_2" }
+	
+	ai_weight = {
+		weight = 300
+		modifier = {
+			weight = 0
+			NOT = {
+				has_technology = tech_cloaking_2
 			}
 		}
 	}
