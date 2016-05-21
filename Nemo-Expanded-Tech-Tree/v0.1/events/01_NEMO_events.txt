@@ -33,7 +33,7 @@ country_event = {
 	}
 
 	option = {
-		name = "It begins."
+		name = "I'm ready."
 		custom_tooltip = nemo.1.tooltip
 	}
 }
