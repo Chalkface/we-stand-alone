@@ -1,0 +1,44 @@
+namespace = NEMOpop
+
+planet_event = {
+	id = NEMOpop.1
+	
+	trigger = {
+		planet = {
+			has_planet_flag = nerve_stapling_campaign
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	immediate = {
+		planet = {
+			IF = {
+				limit = {
+					any_pop = {
+						is_robot_pop = no
+					}
+				}
+				pop_environment_tolerance = 1.00
+				pop_slavery_tolerance = 1.00
+				pop_ethic_shift = -2.00
+				pop_happiness = 2.00
+				pop_migration_time = -0.5
+				pop_fortification_defense = -0.5
+				pop_resettlement_cost_mult = -0.3
+				slave_production_output = 0.1
+				slave_food_output = 0.1
+				tile_resource_minerals_mult = 0.3
+				tile_resource_food_mult = 0.5
+				tile_resource_energy_mult = -1
+				tile_resource_physics_research_mult = -1
+				tile_resource_society_research_mult = -1
+				tile_resource_engineering_research_mult = -1
+				garrison_health = -1.0
+			}
+		}
+	}
+}
+
