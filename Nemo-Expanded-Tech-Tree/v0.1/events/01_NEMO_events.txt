@@ -1,7 +1,46 @@
-namespace = NEMOpop
+namespace = nemo
+
+### Game Beginning Event - We Stand Alone?
+country_event = {
+	id = nemo.1
+	title = nemo.1.name
+	desc = {
+		trigger = {
+			switch = {
+				trigger = has_ethic
+				ethic_fanatic_xenophobe = { text = nemo.1.desc.phobe }
+				ethic_fanatic_xenophile = { text = nemo.1.desc.phile }
+				ethic_xenophobe = { text = nemo.1.desc.phobe }
+				ethic_xenophile = { text = nemo.1.desc.phile }
+				default = { text = nemo.1.desc }
+			}
+		}
+	}
+
+	picture = GFX_evt_star_chart
+	show_sound = event_scanner_03
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = {
+			has_country_flag = nemo1
+		}
+	}
+
+	immediate = {
+		set_country_flag = nemo1
+	}
+
+	option = {
+		name = "It begins."
+		custom_tooltip = nemo.1.tooltip
+	}
+}
+
 
 planet_event = {
-	id = NEMOpop.1
+	id = nemo.199
 	
 	trigger = {
 		planet = {
