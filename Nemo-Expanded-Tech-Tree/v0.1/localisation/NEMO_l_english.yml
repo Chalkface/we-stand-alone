@@ -26,3 +26,11 @@
  nerve_stapling_allowed_all:0 "Nerve Stapling Allowed"
  nerve_stapling_allowed_all_name:0 "Nerve Stapling Allowed"
  nerve_stapling_allowed_all_desc:0 "The Staple is used at the discretion of the state, for the furthering of our state."
+
+ # Nemo Added Events
+ 
+ nemo.1.name:0 "We Stand Alone?"
+ nemo.1.desc.phobe:0 "Where are the aliens? Within the vast emptiness of space around us, there should be thousands of species screaming into the void. Yet, we hear nothing. One theory states the following: ‘All civilizations and species born in the universe must pass some great test, traverse some galactic obstacle. Most fail.’ Exactly as we prefer, and that we have perhaps passed such a test is nothing but a source of some pride. The galaxy is ours to play with, now and forever, as we stand triumphantly alone."
+ nemo.1.desc.phile:0 "Where are the aliens? Within the vast emptiness of space around us, there should be thousands of species screaming into the void. Yet, we hear nothing. One theory states the following: ‘All civilizations and species born in the universe must pass some great test, traverse some galactic obstacle. Most fail.’ This galactic genocide is a terrifying prospect, and perhaps one day we’ll find a way to end it’s harvest of intelligent life. Until then, in the terrifying cold voids that stretch between the stars, we stand alone."
+ nemo.1.desc:0 "Where are the aliens? Within the vast emptiness of space around us, there should be thousands of species screaming into the void. Yet, we hear nothing. One theory states the following: ‘All civilizations and species born in the universe must pass some great test, traverse some galactic obstacle. Most fail.’ Perhaps one day we’ll discover ourselves whether this hurdle lies in our past, defeated, or in our future, waiting. For now all we know is that in all of known space: we stand alone."
+ nemo.1.tooltip:0 "Good Luck! Remember, failure means extinction!"
