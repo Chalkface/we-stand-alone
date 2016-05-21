@@ -238,11 +238,10 @@ part = {
 	localization = "nemo.1.desc"
 	
 	trigger = {
-		always = yes
-		NOT = { has_ethic = "xenophobe" }
-		NOT = { has_ethic = "fanatic_xenophobe" }
-		NOT = { has_ethic = "xenophile" }
-		NOT = { has_ethic = "fanatic_xenophile" }
+		NOT = { has_ethic = "ethic_xenophobe" }
+		NOT = { has_ethic = "ethic_fanatic_xenophobe" }
+		NOT = { has_ethic = "ethic_xenophile" }
+		NOT = { has_ethic = "ethic_fanatic_xenophile" }
 		NOT = { has_country_flag = custom_start_screen }
 	}
 }
@@ -252,9 +251,8 @@ part = {
 	localization = "nemo.1.desc.phile"
 	
 	trigger = {
-		always = yes
-		has_ethic = "xenophile"
-		has_ethic = "fanatic_xenophile"
+		has_ethic = "ethic_xenophile"
+		has_ethic = "ethic_fanatic_xenophile"
 		NOT = { has_country_flag = custom_start_screen }
 	}
 }
@@ -264,9 +262,8 @@ part = {
 	localization = "nemo.1.desc.phobe"
 	
 	trigger = {
-		always = yes
-		has_ethic = "xenophobe"
-		has_ethic = "fanatic_xenophobe"
+		has_ethic = "ethic_xenophobe"
+		has_ethic = "ethic_fanatic_xenophobe"
 		NOT = { has_country_flag = custom_start_screen }
 	}
 }
