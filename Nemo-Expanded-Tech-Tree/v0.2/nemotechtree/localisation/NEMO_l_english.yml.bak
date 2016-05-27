@@ -1,0 +1,45 @@
+﻿l_english:
+
+ # Nemo Added Techs
+ tech_xeno_logistics:0 "Xeno-Logistics"
+ tech_xeno_logistics_desc:0 "The art of stellar warfare is an ever evolving field, and we have had opportunities to practice and evolve how we conduct war upon the surface of alien worlds. Now we can consolidate our strategy and ensure our planetary forces are equipped to the best of our ability at all times."
+ tech_cloaking_1:0 "Xeno-Camouflage"
+ tech_cloaking_1_desc:0 "Active Camouflage and Low Visibility technology have long been available, but standardised methods that worked on our homeworld are useless across the near infinite environments that make up foreign worlds. By devoting resources to engineering specialists who can travel with the army, we can ensure appropriate camouflage methods are ready before our troops even make planetfall."
+ tech_cloaking_2:0 "Microprojector Cloaking"
+ tech_cloaking_2_desc:0 "Whilst prohibitively expensive, microprojector technology is the closest we have to complete invisibility in a military environment. By adapting the technology ready for practical use, we can create a new generation of shock troops."
+ army_attachment_xeno_camouflage_brigade:0 "Xeno Camouflage Corps"
+ army_attachment_xeno_camouflage_brigade_desc:0 "Adapting to local environments is a nightmare of logistics for an armed force expected to see service anywhere from a desert moon to a lush jungle to the cargo bay of a starship. This army has it's own Corps of engineers and scientists who specialise in adapting modern military camouflage methods to Xeno environments."
+ army_attachment_cloaked_IFV_brigade:0 "Cloaked Division"
+ army_attachment_cloaked_IFV_brigade_desc:0 "A specialist division equipped with microprojector technology and emission lowering materials, and supported by similarly hidden support units. The advantages and uses for 90% cloaked commando squads are beyond counting."
+ tech_telomere_replication:0 "Telomere Replication"
+ tech_telomere_replication_desc:0 "By delving into the depths of our own DNA coding, we determined that Telomeres are one of the hidden triggers for the end of a natural lifespan. Now, we master the art of reinforcing these delicate strange of information so that we can further delay death."
+ tech_nerve_stapling:0 "Nerve Stapling"
+ tech_nerve_stapling_desc:0 "Sometimes the whip is not enough. Sometimes the neuro-implant is not enough. Sometimes you must reach down to the masses and give them what they truly deserve: a simple life."
+ edict_nerve_stapling:0 "Nerve Staple a Generation"
+ edict_nerve_stapling_desc:0 "This planet is proving unruly perhaps? Maybe they are upset about one of your latest policies. Perhaps you're just bored. Who is going to stop you?"
+ nerve_stapling:0 "Nerve Stapling"
+ nerve_stapling_name:0 "Nerve Stapling"
+ nerve_stapling_desc:0 "An option for planetary submission, without damaging the infrastructure of said world, is Nerve Stapling. The population of the planet is siphoned through centrally run facilities which remove their motivations, their curiosities, and their reservations. The result is a group of the vulgar, fit to work the fields or the mines, but little more. But they'll never complain."
+ nerve_stapling_not_allowed:0 "Nerve Stapling Banned"
+ nerve_stapling_not_allowed_name:0 "Nerve Stapling Prohibited"
+ nerve_stapling_not_allowed_desc:0 "There are no words that adequetly describe the fringe horror that is the fate of those who are Nerve Stapled. To conduct that procedure upon another being is an atrocity that our ancestors could seldom have imagined possible."
+ nerve_stapling_allowed_all:0 "Nerve Stapling Allowed"
+ nerve_stapling_allowed_all_name:0 "Nerve Stapling Allowed"
+ nerve_stapling_allowed_all_desc:0 "The Staple is used at the discretion of the state, for the furthering of our state."
+
+ # Nemo Added Events
+ 
+ nemo.1.name:0 "We Stand Alone?"
+ nemo.1.desc.phobe:0 "Where are the aliens? Within the vast emptiness of space around us, there should be thousands of species screaming into the void. Yet, we hear nothing. One theory states the following: "All civilizations and species born in the universe must pass some great test, traverse some galactic obstacle. Most fail." Exactly as we prefer, and that we have perhaps passed such a test is nothing but a source of some pride. The galaxy is ours to play with, now and forever, as we stand triumphantly alone."
+ nemo.1.desc.phile:0 "Where are the aliens? Within the vast emptiness of space around us, there should be thousands of species screaming into the void. Yet, we hear nothing. One theory states the following: "All civilizations and species born in the universe must pass some great test, traverse some galactic obstacle. Most fail." This galactic genocide is a terrifying prospect, and perhaps one day we will find a way to end it’s harvest of intelligent life. Until then, in the terrifying cold voids that stretch between the stars, we stand alone."
+ nemo.1.desc:0 "Where are the aliens? Within the vast emptiness of space around us, there should be thousands of species screaming into the void. Yet, we hear nothing. One theory states the following: "All civilizations and species born in the universe must pass some great test, traverse some galactic obstacle. Most fail." Perhaps one day we will discover ourselves whether this hurdle lies in our past, defeated, or in our future, waiting. For now all we know is that in all of known space: we stand alone."
+ nemo.1.tooltip:0 "Good Luck! Remember, failure means extinction!"
+ 
+ # Nemo Added Buildings
+ building_pyramid_complex:0 "Pyramid Complex"
+ building_pyramid_complex_desc:0 "The home of our living deity, the divine [GetRulerName]. From here the galaxy is ruled, believers or no."
+ building_ground_zero:0 "Ground Zero"
+ building_ground_zero_desc:0 "If the scum and villainy of the galaxy wanted to tear our empire apart in one violent blast, here is the only place they could do it. Thats why we put up the fence."
+ building_nna_admin_hub:0 "Administration Hub"
+ building_nna_admin_hub_desc:0 "The rule of cold logic through machines is an ideal government, and it is from this site that our regime is held. Here we faithfully maintain the machine of state."
+ 

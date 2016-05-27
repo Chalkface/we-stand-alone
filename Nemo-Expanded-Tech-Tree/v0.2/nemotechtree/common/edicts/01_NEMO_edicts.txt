@@ -1,0 +1,25 @@
+# Nerve Stapling
+#planet_edict = {
+#	name = "nerve_stapling"
+#	influence_cost = 100
+#	length = 60
+#	modifier = {
+#		set_planet_flag = nerve_stapling_campaign
+#	}
+#	
+#	potential = {
+#		owner = {
+#			has_policy_flag = nerve_stapling_allowed_all
+#		}
+#	}
+#	
+#	allow = {
+#		owner = {
+#			has_policy_flag = nerve_stapling_allowed_all
+#		}
+#	}
+#	
+#	ai_weight = {
+#		weight = 0
+#	}	
+#}
